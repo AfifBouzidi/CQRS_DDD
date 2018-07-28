@@ -22,5 +22,5 @@ A small sales application with the following user stories:
 * **As an** Account Manager **I want to** Edit an existing customer account **So that** I can fulfil customer needs
 * **As an** Account Manager **I want to** Delete an existing customer account **So that** I can fulfil customer needs
 * **As a** Sales manager **I want to** Consult sales statistics **So that** I can have a clear view of the business performance
-##Modules Packaging
-![modules packaging](CQRS_DDD/Modules%20Packaging%20.png)
+## Modules Packaging
+![](https://github.com/AfifBouzidi/CQRS_DDD/blob/master/Modules%20Packaging%20.png)
