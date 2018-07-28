@@ -45,7 +45,13 @@ A small sales application with the following user stories:
 | Sales_infrastructure  |  Consists of everything that exists independently of the application: external libraries, database… |
 
 ## Detailed design
-### Domain model and bounded contexts 
+#### Domain model and bounded contexts 
 ![](https://github.com/AfifBouzidi/CQRS_DDD/blob/master/domain%20model.png)
-### Place Order Activity Diagram
+#### Place Order Activity Diagram
+![](https://github.com/AfifBouzidi/CQRS_DDD/blob/master/place%20order%20.png)
+#### Receive payment Activity Diagram
+![](https://github.com/AfifBouzidi/CQRS_DDD/blob/master/Receive%20payment.png)
+#### Payment Scheduler job Activity Diagram
+![](https://github.com/AfifBouzidi/CQRS_DDD/blob/master/Payment%20Scheduler%20job%20.png)
 
+## Getting Started
