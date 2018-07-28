@@ -55,7 +55,7 @@ A small sales application with the following user stories:
 ![](https://github.com/AfifBouzidi/CQRS_DDD/blob/master/Payment%20Scheduler%20job%20.png)
 
 #### Order state diagram
-
+![](https://github.com/AfifBouzidi/CQRS_DDD/blob/master/Order%20state%20diagram.png)
 #### Invoice state diagram
-
+![](https://github.com/AfifBouzidi/CQRS_DDD/blob/master/Invoice%20state%20diagram.png)
 ## Getting Started
