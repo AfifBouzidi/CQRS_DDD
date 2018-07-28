@@ -24,3 +24,16 @@ A small sales application with the following user stories:
 * **As a** Sales manager **I want to** Consult sales statistics **So that** I can have a clear view of the business performance
 ## Modules Packaging
 ![](https://github.com/AfifBouzidi/CQRS_DDD/blob/master/Modules%20Packaging%20.png)
+
+| Component  | Responsibility    |
+| ------------ | ------------ |
+|  Sales_domain  | The domain layer is the core of the software, There is one package per aggregate, and to each aggregate belongs entities and value objects   |
+| Sales_commands   | Contains domain commands   |
+|  Sales_events |  Contains domain events  |
+| Sales_application       |   Coordinates the domain layer objects to perform use cases|
+|   Sales_command_api|  Handles create, update, and delete requests and emits events when data changes |
+|   Sales_query_api|  Handles queries by executing them against materialized views. The views are kept up to date by subscribing to the stream of events emitted when data changes |
+| Sales_infrastructure  |  Consists of everything that exists independently of the application: external libraries, database… |
+
+## Detailed design
+### Domain model and bounded contexts 
