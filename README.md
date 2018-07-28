@@ -54,4 +54,8 @@ A small sales application with the following user stories:
 #### Payment Scheduler job Activity Diagram
 ![](https://github.com/AfifBouzidi/CQRS_DDD/blob/master/Payment%20Scheduler%20job%20.png)
 
+#### Order state diagram
+
+#### Invoice state diagram
+
 ## Getting Started
