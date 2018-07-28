@@ -6,6 +6,7 @@ This work presents a practical application of the CQRS (Command and Query Respon
 *	Clean separation between the technical code and the business logic
 *	Command side rest api
 *	Query side rest api
+* Saga Pattern
 
 ## Software requirements
 *	Spring Boot 2.0.0.RELEASE
