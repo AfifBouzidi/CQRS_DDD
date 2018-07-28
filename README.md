@@ -7,6 +7,15 @@ This work presents a practical application of the CQRS (Command and Query Respon
 *	Command side rest api
 *	Query side rest api
 
+## Software requirements
+*	Spring Boot 2.0.0.RELEASE
+*	Axon Framework 3.3.2
+*	Quartz 2.2.1
+* RabbitMQ
+* ActiveMQ
+*	PostgreSQL
+*	Angular
+
 ## Practical Example
 A small sales application with the following user stories: 
 * **As a** Billing manager **I want to** Update an existing invoice **So that** I can extend the payment date
@@ -37,3 +46,6 @@ A small sales application with the following user stories:
 
 ## Detailed design
 ### Domain model and bounded contexts 
+![](https://github.com/AfifBouzidi/CQRS_DDD/blob/master/domain%20model.png)
+### Place Order Activity Diagram
+
