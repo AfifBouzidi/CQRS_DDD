@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>tn.inf.sales</groupId>
+		<artifactId>sales-common-side</artifactId>
+		<version>${sales-common-side-version}</version>
+		<relativePath>../sales-common-side/pom.xml</relativePath>
+	</parent>
+	<artifactId>sales-events</artifactId>
+	<version>${sales-events-version}</version>
+	<dependencies>
+		<dependency>
+			<groupId>tn.inf.sales</groupId>
+			<artifactId>sales-shared-kernel</artifactId>
+			<version>${sales-shared-kernel-version}</version>
+		</dependency>
+	</dependencies>
+</project>

@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>tn.inf.sales</groupId>
+		<artifactId>sales</artifactId>
+		<version>${sales-version}</version>
+		<relativePath>../sales/pom.xml</relativePath>
+	</parent>
+	<artifactId>sales-query-side</artifactId>
+	<packaging>pom</packaging>
+	<version>${sales-query-side-version}</version>
+	  	<properties>
+	    <sales-query-api-version>0.0.1</sales-query-api-version>
+	    <sales-query-event-listener-version>0.0.1</sales-query-event-listener-version>
+	</properties>
+	<modules>
+		<module>../sales-query-api</module>
+		<module>../sales-query-event-listener</module>
+	</modules>
+</project>

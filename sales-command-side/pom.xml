@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>tn.inf.sales</groupId>
+		<artifactId>sales</artifactId>
+		<version>${sales-version}</version>
+		<relativePath>../sales/pom.xml</relativePath>
+	</parent>
+	<artifactId>sales-command-side</artifactId>
+	<packaging>pom</packaging>
+	<version>${sales-command-side-version}</version>
+	<properties>
+		<sales-command-api-version>0.0.1</sales-command-api-version>
+		<sales-application-version>0.0.1</sales-application-version>
+		<sales-domain-version>0.0.1</sales-domain-version>
+		<sales-infrastructure-version>0.0.1</sales-infrastructure-version>
+	</properties>
+	<modules>
+		<module>../sales-command-api</module>
+		<module>../sales-application</module>
+		<module>../sales-domain</module>
+		<module>../sales-infrastructure</module>
+	</modules>
+	<dependencies>
+		<dependency>
+			<groupId>tn.inf.sales</groupId>
+			<artifactId>sales-shared-kernel</artifactId>
+			<version>${sales-shared-kernel-version}</version>
+		</dependency>
+	</dependencies>
+</project>

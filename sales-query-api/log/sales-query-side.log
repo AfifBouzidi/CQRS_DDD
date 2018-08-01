@@ -1,0 +1,116 @@
+2018-07-28 14:32:24.0678 | INFO  | [org.springframework.boot.StartupInfoLogger:48] | Starting QueryApiApplication on sst-dg360658wi with PID 13528 (D:\DDD\sales_workspace\sales-query-api\target\classes started by G360658 in D:\DDD\sales_workspace\sales-query-api)
+2018-07-28 14:32:24.0688 | INFO  | [org.springframework.boot.SpringApplication:593] | No active profile set, falling back to default profiles: default
+2018-07-28 14:32:24.0913 | INFO  | [org.springframework.context.support.AbstractApplicationContext:583] | Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8e0379d: startup date [Sat Jul 28 14:32:24 WAT 2018]; root of context hierarchy
+2018-07-28 14:32:25.0228 | INFO  | [org.hibernate.validator.internal.util.Version:30] | HV000001: Hibernate Validator 5.3.6.Final
+2018-07-28 14:32:26.0996 | INFO  | [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:92] | Tomcat initialized with port(s): 8080 (http)
+2018-07-28 14:32:27.0016 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-28 14:32:27.0028 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Starting service [Tomcat]
+2018-07-28 14:32:27.0029 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-28 14:32:27.0170 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Initializing Spring embedded WebApplicationContext
+2018-07-28 14:32:27.0171 | INFO  | [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:276] | Root WebApplicationContext: initialization completed in 2291 ms
+2018-07-28 14:32:27.0357 | INFO  | [org.springframework.boot.web.servlet.ServletRegistrationBean:191] | Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-28 14:32:27.0362 | INFO  | [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:259] | Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-28 14:32:27.0363 | INFO  | [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:259] | Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-28 14:32:27.0364 | INFO  | [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:259] | Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-28 14:32:27.0364 | INFO  | [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:259] | Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-28 14:32:27.0731 | INFO  | [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] | Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8e0379d: startup date [Sat Jul 28 14:32:24 WAT 2018]; root of context hierarchy
+2018-07-28 14:32:27.0796 | INFO  | [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-28 14:32:27.0797 | INFO  | [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-28 14:32:27.0831 | INFO  | [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 14:32:27.0831 | INFO  | [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 14:32:27.0873 | INFO  | [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 14:32:28.0041 | INFO  | [org.springframework.jmx.export.MBeanExporter:431] | Registering beans for JMX exposure on startup
+2018-07-28 14:32:28.0059 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Starting ProtocolHandler ["http-nio-8080"]
+2018-07-28 14:32:28.0074 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Using a shared selector for servlet write/read
+2018-07-28 14:32:28.0092 | INFO  | [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:216] | Tomcat started on port(s): 8080 (http)
+2018-07-28 14:32:28.0097 | INFO  | [org.springframework.boot.StartupInfoLogger:57] | Started QueryApiApplication in 3.882 seconds (JVM running for 6.312)
+2018-07-28 14:32:33.0346 | INFO  | [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125] | Application shutdown requested.
+2018-07-28 14:32:33.0348 | INFO  | [org.springframework.context.support.AbstractApplicationContext:984] | Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8e0379d: startup date [Sat Jul 28 14:32:24 WAT 2018]; root of context hierarchy
+2018-07-28 14:32:33.0353 | INFO  | [org.springframework.jmx.export.MBeanExporter:449] | Unregistering JMX-exposed beans on shutdown
+2018-07-28 14:36:03.0862 | INFO  | [org.springframework.boot.StartupInfoLogger:48] | Starting QueryApiApplication on sst-dg360658wi with PID 4040 (D:\DDD\sales_workspace\sales-query-api\target\classes started by G360658 in D:\DDD\sales_workspace\sales-query-api)
+2018-07-28 14:36:03.0871 | INFO  | [org.springframework.boot.SpringApplication:593] | No active profile set, falling back to default profiles: default
+2018-07-28 14:36:04.0012 | INFO  | [org.springframework.context.support.AbstractApplicationContext:583] | Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8e0379d: startup date [Sat Jul 28 14:36:04 WAT 2018]; root of context hierarchy
+2018-07-28 14:36:04.0226 | INFO  | [org.hibernate.validator.internal.util.Version:30] | HV000001: Hibernate Validator 5.3.6.Final
+2018-07-28 14:36:06.0238 | INFO  | [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:92] | Tomcat initialized with port(s): 8080 (http)
+2018-07-28 14:36:06.0265 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-28 14:36:06.0286 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Starting service [Tomcat]
+2018-07-28 14:36:06.0287 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-28 14:36:06.0541 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Initializing Spring embedded WebApplicationContext
+2018-07-28 14:36:06.0542 | INFO  | [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:276] | Root WebApplicationContext: initialization completed in 2536 ms
+2018-07-28 14:36:06.0877 | INFO  | [org.springframework.boot.web.servlet.ServletRegistrationBean:191] | Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-28 14:36:06.0885 | INFO  | [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:259] | Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-28 14:36:06.0887 | INFO  | [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:259] | Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-28 14:36:06.0889 | INFO  | [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:259] | Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-28 14:36:06.0889 | INFO  | [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:259] | Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-28 14:36:07.0564 | INFO  | [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] | Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8e0379d: startup date [Sat Jul 28 14:36:04 WAT 2018]; root of context hierarchy
+2018-07-28 14:36:07.0697 | INFO  | [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-28 14:36:07.0700 | INFO  | [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-28 14:36:07.0764 | INFO  | [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 14:36:07.0765 | INFO  | [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 14:36:07.0853 | INFO  | [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 14:36:08.0196 | INFO  | [org.springframework.jmx.export.MBeanExporter:431] | Registering beans for JMX exposure on startup
+2018-07-28 14:36:08.0223 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Starting ProtocolHandler ["http-nio-8080"]
+2018-07-28 14:36:08.0251 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Using a shared selector for servlet write/read
+2018-07-28 14:36:08.0281 | INFO  | [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:216] | Tomcat started on port(s): 8080 (http)
+2018-07-28 14:36:08.0292 | INFO  | [org.springframework.boot.StartupInfoLogger:57] | Started QueryApiApplication in 4.972 seconds (JVM running for 7.908)
+2018-07-28 14:36:13.0034 | INFO  | [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125] | Application shutdown requested.
+2018-07-28 14:36:13.0036 | INFO  | [org.springframework.context.support.AbstractApplicationContext:984] | Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8e0379d: startup date [Sat Jul 28 14:36:04 WAT 2018]; root of context hierarchy
+2018-07-28 14:36:13.0043 | INFO  | [org.springframework.jmx.export.MBeanExporter:449] | Unregistering JMX-exposed beans on shutdown
+2018-07-28 14:45:38.0745 | INFO  | [org.springframework.boot.StartupInfoLogger:48] | Starting QueryApiApplication on sst-dg360658wi with PID 14264 (D:\DDD\sales_workspace\sales-query-api\target\classes started by G360658 in D:\DDD\sales_workspace\sales-query-api)
+2018-07-28 14:45:38.0755 | INFO  | [org.springframework.boot.SpringApplication:593] | No active profile set, falling back to default profiles: default
+2018-07-28 14:45:38.0882 | INFO  | [org.springframework.context.support.AbstractApplicationContext:583] | Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8e0379d: startup date [Sat Jul 28 14:45:38 WAT 2018]; root of context hierarchy
+2018-07-28 14:45:39.0168 | INFO  | [org.hibernate.validator.internal.util.Version:30] | HV000001: Hibernate Validator 5.3.6.Final
+2018-07-28 14:45:40.0724 | INFO  | [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:92] | Tomcat initialized with port(s): 8080 (http)
+2018-07-28 14:45:40.0774 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-28 14:45:40.0809 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Starting service [Tomcat]
+2018-07-28 14:45:40.0810 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-28 14:45:41.0171 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Initializing Spring embedded WebApplicationContext
+2018-07-28 14:45:41.0172 | INFO  | [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:276] | Root WebApplicationContext: initialization completed in 2297 ms
+2018-07-28 14:45:41.0589 | INFO  | [org.springframework.boot.web.servlet.ServletRegistrationBean:191] | Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-28 14:45:41.0597 | INFO  | [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:259] | Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-28 14:45:41.0598 | INFO  | [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:259] | Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-28 14:45:41.0599 | INFO  | [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:259] | Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-28 14:45:41.0600 | INFO  | [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:259] | Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-28 14:45:42.0213 | INFO  | [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] | Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8e0379d: startup date [Sat Jul 28 14:45:38 WAT 2018]; root of context hierarchy
+2018-07-28 14:45:42.0323 | INFO  | [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-28 14:45:42.0325 | INFO  | [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-28 14:45:42.0384 | INFO  | [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 14:45:42.0385 | INFO  | [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 14:45:42.0451 | INFO  | [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 14:45:42.0729 | INFO  | [org.springframework.jmx.export.MBeanExporter:431] | Registering beans for JMX exposure on startup
+2018-07-28 14:45:42.0755 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Starting ProtocolHandler ["http-nio-8080"]
+2018-07-28 14:45:42.0777 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Using a shared selector for servlet write/read
+2018-07-28 14:45:42.0803 | INFO  | [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:216] | Tomcat started on port(s): 8080 (http)
+2018-07-28 14:45:42.0812 | INFO  | [org.springframework.boot.StartupInfoLogger:57] | Started QueryApiApplication in 4.605 seconds (JVM running for 8.2)
+2018-07-28 14:45:52.0888 | INFO  | [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125] | Application shutdown requested.
+2018-07-28 14:45:52.0890 | INFO  | [org.springframework.context.support.AbstractApplicationContext:984] | Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8e0379d: startup date [Sat Jul 28 14:45:38 WAT 2018]; root of context hierarchy
+2018-07-28 14:45:52.0896 | INFO  | [org.springframework.jmx.export.MBeanExporter:449] | Unregistering JMX-exposed beans on shutdown
+2018-07-28 14:48:10.0641 | INFO  | [org.springframework.boot.StartupInfoLogger:48] | Starting QueryApiApplication on sst-dg360658wi with PID 6376 (D:\DDD\sales_workspace\sales-query-api\target\classes started by G360658 in D:\DDD\sales_workspace\sales-query-api)
+2018-07-28 14:48:10.0650 | INFO  | [org.springframework.boot.SpringApplication:593] | No active profile set, falling back to default profiles: default
+2018-07-28 14:48:10.0801 | INFO  | [org.springframework.context.support.AbstractApplicationContext:583] | Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8e0379d: startup date [Sat Jul 28 14:48:10 WAT 2018]; root of context hierarchy
+2018-07-28 14:48:11.0062 | INFO  | [org.hibernate.validator.internal.util.Version:30] | HV000001: Hibernate Validator 5.3.6.Final
+2018-07-28 14:48:12.0433 | INFO  | [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:92] | Tomcat initialized with port(s): 8081 (http)
+2018-07-28 14:48:12.0450 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Initializing ProtocolHandler ["http-nio-8081"]
+2018-07-28 14:48:12.0465 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Starting service [Tomcat]
+2018-07-28 14:48:12.0466 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-28 14:48:12.0618 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Initializing Spring embedded WebApplicationContext
+2018-07-28 14:48:12.0618 | INFO  | [org.springframework.boot.context.embedded.EmbeddedWebApplicationContext:276] | Root WebApplicationContext: initialization completed in 1825 ms
+2018-07-28 14:48:12.0815 | INFO  | [org.springframework.boot.web.servlet.ServletRegistrationBean:191] | Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-28 14:48:12.0823 | INFO  | [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:259] | Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-28 14:48:12.0824 | INFO  | [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:259] | Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-28 14:48:12.0825 | INFO  | [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:259] | Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-28 14:48:12.0825 | INFO  | [org.springframework.boot.web.servlet.AbstractFilterRegistrationBean:259] | Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-28 14:48:13.0236 | INFO  | [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter:534] | Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8e0379d: startup date [Sat Jul 28 14:48:10 WAT 2018]; root of context hierarchy
+2018-07-28 14:48:13.0383 | INFO  | [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-28 14:48:13.0388 | INFO  | [org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry:543] | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-28 14:48:13.0463 | INFO  | [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 14:48:13.0464 | INFO  | [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 14:48:13.0564 | INFO  | [org.springframework.web.servlet.handler.AbstractUrlHandlerMapping:362] | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-28 14:48:14.0016 | INFO  | [org.springframework.jmx.export.MBeanExporter:431] | Registering beans for JMX exposure on startup
+2018-07-28 14:48:14.0060 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Starting ProtocolHandler ["http-nio-8081"]
+2018-07-28 14:48:14.0103 | INFO  | [org.apache.juli.logging.DirectJDKLog:180] | Using a shared selector for servlet write/read
+2018-07-28 14:48:14.0147 | INFO  | [org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer:216] | Tomcat started on port(s): 8081 (http)
+2018-07-28 14:48:14.0160 | INFO  | [org.springframework.boot.StartupInfoLogger:57] | Started QueryApiApplication in 4.031 seconds (JVM running for 7.483)
+2018-07-28 14:48:50.0168 | INFO  | [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125] | Application shutdown requested.
+2018-07-28 14:48:50.0170 | INFO  | [org.springframework.context.support.AbstractApplicationContext:984] | Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8e0379d: startup date [Sat Jul 28 14:48:10 WAT 2018]; root of context hierarchy
+2018-07-28 14:48:50.0174 | INFO  | [org.springframework.jmx.export.MBeanExporter:449] | Unregistering JMX-exposed beans on shutdown
