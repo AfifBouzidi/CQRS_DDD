@@ -4,7 +4,6 @@ import java.util.Map;
 
 import org.axonframework.commandhandling.TargetAggregateIdentifier;
 
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import tn.inf.sales.kernel.customer.CustomerId;
