@@ -2,7 +2,6 @@ package tn.inf.sales.domain.invoice;
 
 import java.util.Map;
 import java.util.Objects;
-
 import javax.persistence.Embedded;
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
